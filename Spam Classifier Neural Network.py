@@ -59,3 +59,11 @@ prediction = sigmoid(np.dot(sigmoid(np.dot(test_vector, weights_0_1)), weights_1
 print(f"Spam Probability: {prediction[0][0]:.4f}")
 
 print("Result:", "Spam" if prediction > 0.5 else "Ham")
+
+
+
+Ouput:-
+
+Spam Probability: 0.9015
+Result: Spam
+
